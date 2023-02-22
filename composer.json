@@ -3,9 +3,9 @@
         "spiral/roadrunner": "^2.12",
         "nyholm/psr7": "^1.5",
         "league/route": "^5.1",
-        "league/monga": "^1.2",
         "elasticsearch/elasticsearch": "^8.6",
-        "spiral/roadrunner-metrics": "^2.0"
+        "spiral/roadrunner-metrics": "^2.0",
+        "mongodb/mongodb": "^1.15"
     },
     "autoload": {
         "psr-4": {

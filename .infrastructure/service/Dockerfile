@@ -10,8 +10,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends git unzip libpq
 
 RUN useradd -ms /bin/bash Qui-Gon
 
-RUN docker-php-ext-install sockets && docker-php-ext-install pcntl && docker-php-ext-install pdo_pgsql && \
-    pecl install redis && docker-php-ext-enable redis && \
+RUN docker-php-ext-install sockets && docker-php-ext-install pcntl && \
+    pecl install mongodb && docker-php-ext-enable mongodb && \
     pecl install apcu && docker-php-ext-enable apcu && \
     echo "apc.enable_cli=1" >> /usr/local/etc/php/conf.d/docker-php-ext-apcu.ini
 

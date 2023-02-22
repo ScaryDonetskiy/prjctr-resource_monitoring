@@ -26,7 +26,6 @@
   "fiscalYearStartMonth": 0,
   "gnetId": 5063,
   "graphTooltip": 0,
-  "id": 6,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -2038,7 +2037,7 @@
       }
     }
   ],
-  "refresh": "30s",
+  "refresh": "5s",
   "schemaVersion": 37,
   "style": "dark",
   "tags": [
@@ -2050,7 +2049,7 @@
     "list": [
       {
         "current": {
-          "selected": true,
+          "selected": false,
           "text": "InfluxDB",
           "value": "InfluxDB"
         },
@@ -2070,8 +2069,8 @@
       {
         "current": {
           "selected": false,
-          "text": "ea9045a11ef7",
-          "value": "ea9045a11ef7"
+          "text": "b0db13734aea",
+          "value": "b0db13734aea"
         },
         "datasource": {
           "type": "influxdb",
@@ -2096,7 +2095,7 @@
     ]
   },
   "time": {
-    "from": "now-24h",
+    "from": "now-15m",
     "to": "now"
   },
   "timepicker": {

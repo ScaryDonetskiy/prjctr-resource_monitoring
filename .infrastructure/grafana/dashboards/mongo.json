@@ -26,7 +26,6 @@
   "fiscalYearStartMonth": 0,
   "gnetId": 1530,
   "graphTooltip": 0,
-  "id": 2,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -1675,8 +1674,8 @@
       {
         "current": {
           "selected": false,
-          "text": "2ae22cc9ab42",
-          "value": "2ae22cc9ab42"
+          "text": "b0db13734aea",
+          "value": "b0db13734aea"
         },
         "datasource": {
           "type": "influxdb",
@@ -1775,7 +1774,7 @@
     ]
   },
   "time": {
-    "from": "now-5m",
+    "from": "now-15m",
     "to": "now"
   },
   "timepicker": {
@@ -1806,6 +1805,6 @@
   "timezone": "browser",
   "title": "MongoDB Monitoring Dashboard",
   "uid": "kHGezuJVz",
-  "version": 2,
+  "version": 1,
   "weekStart": ""
 }
