@@ -1,0 +1,3 @@
+http://localhost:8000/insert/mongo?username=prjcts&password=qwerrty
+http://localhost:8000/insert/mongo?project=lesson&access=true
+http://localhost:8000/insert/mongo?test=stress&tool=siege

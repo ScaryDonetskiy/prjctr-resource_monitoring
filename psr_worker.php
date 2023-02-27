@@ -19,6 +19,7 @@ $router = new Router();
 $router->get('/load/full', Controller::class . '::full');
 $router->get('/load/mongo', Controller::class . '::mongo');
 $router->get('/load/elastic', Controller::class . '::elastic');
+$router->get('/insert/mongo', Controller::class. '::mongoInsertUserdata');
 
 $router->get('/health', function (): ResponseInterface {
     return new Psr7\Response(body: 'ok');
